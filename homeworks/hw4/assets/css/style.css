@@ -90,7 +90,7 @@ font-family: "Lexend";
 h1 {
     font-family: "Lexend";
     font-weight: 400;
-    font-size: 70px;
+    font-size: 50px;
     line-height: 70px;
 }
 
@@ -98,6 +98,7 @@ h2 {
     font-family: "Lexend";
     line-height: 10px;
     font-weight: 300;
+    font-size: 20px;
     color: rgb(67, 152, 237);
 
 }
