@@ -74,3 +74,8 @@ h1 {
 }
 
 /* Problem 3.1 */
+
+#Console {
+	width: 1200px;
+	margin: 20 450 auto;
+}
