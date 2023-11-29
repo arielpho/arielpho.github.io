@@ -1,6 +1,87 @@
 <!DOCTYPE html>
 <html>
-    <body>
-        FINAL
-    </body>
+
+<head>
+    <meta charset="utf-8">
+    <title>Ariel Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="assets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Reem+Kufi&family=Tsukimi+Rounded&display=swap"
+        rel="stylesheet">
+</head>
+
+<body class="home">
+    <header><a href="index.html"><img id="logo" src="assets/img/logo.png"><img></header> </a>
+    <nav>
+        <div class="navtext">
+            <a class="menutext" href="index.html">Home
+                <img class="tri" src="assets/img/tri.png">
+            </a>
+        </div>
+
+        <div class="dropdown">
+            <p class="menutext">Portfolio</p>
+            <div class="dropdown-content">
+                <a href="pages/pOriginal.html">✤ Original</a>
+                <a href="pages/pFanart.html">✤ Fanart</a>
+            </div>
+        </div>
+        <div class="navtext">
+            <a class="menutext" href="pages/about.html">About
+                <img class="tri" src="assets/img/tri.png">
+            </a>
+        </div>
+    </nav>
+    <div id="homecarotext">
+        <h3 class="title" id="gallery">Gallery</h3>
+        <a href="pages/pOriginal.html"><button class="butt">Original</button></a>
+        <a href="pages/pFanart.html"><button class="butt">Fanart</button></a>
+        <a href="pages/about.html"><button class="butt">Contact</button></a>
+    </div>
+    <div id="carocontainer">
+        <div id="arrows">
+            <button id="larrow" class="hidden">
+                <svg id="larrow" xmlns="http://www.w3.org/2000/svg" height="40" width="40"
+                    viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.-->
+                    <path fill="#fecdd6"
+                        d="M512 256A256 256 0 1 0 0 256a256 256 0 1 0 512 0zM231 127c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9l-71 71L376 232c13.3 0 24 10.7 24 24s-10.7 24-24 24l-182.1 0 71 71c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0L119 273c-9.4-9.4-9.4-24.6 0-33.9L231 127z" />
+                </svg>
+            </button>
+            <button id="rarrow">
+                <svg id="rarrow" xmlns="http://www.w3.org/2000/svg" height="40" width="40"
+                    viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.-->
+                    <path fill="#fecdd6"
+                        d="M0 256a256 256 0 1 0 512 0A256 256 0 1 0 0 256zM281 385c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l71-71L136 280c-13.3 0-24-10.7-24-24s10.7-24 24-24l182.1 0-71-71c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0L393 239c9.4 9.4 9.4 24.6 0 33.9L281 385z" />
+                </svg>
+            </button>
+        </div>
+
+        <div id="caro">
+
+            <div class="carousel-image">
+                <img id="lovebeam" src="assets/img/lovebeam.png">
+            </div>
+            <div class="carousel-image">
+                <img id="hearteyes" src="assets/img/hearteyes.png">
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div>
+            <p class="foott title">Contact</p>
+            <p id="footmail">ariru.illust@gmail.com</p>
+        </div>
+        <div>
+            <p class="foott title">Socials</p>
+            <div id="socialsimg">
+                <a href="https://twitter.com/__ariru"><img src="assets/img/twitter.png"></a>
+                <a href="https://instagram.com/ariru_"><img src="assets/img/instagram.png"></a>
+                <a href="https://youtube.com/@ariruu"><img src="assets/img/youtube.png"></a>
+            </div>
+        </div>
+    </footer>
+    <script src="assets/script.js"></script>
+</body>
+
 </html>
